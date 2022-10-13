@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Application\\ClearBank.DeveloperTest.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Application\\ClearBank.DeveloperTest.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Application\\ClearBank.DeveloperTest.Application.csproj",
+        "projectName": "ClearBank.DeveloperTest.Application",
+        "projectPath": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Application\\ClearBank.DeveloperTest.Application.csproj",
+        "packagesPath": "C:\\Users\\FilipEm\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FilipEm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/vbl-core/5cf8bbfc-13f1-4704-9aed-e7dd72243f8e/_packaging/VanquisEngineering/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/vbl-core/_packaging/AgentDesktop/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\ClearBank.DeveloperTest.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\ClearBank.DeveloperTest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\ClearBank.DeveloperTest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\ClearBank.DeveloperTest.Domain.csproj",
+        "projectName": "ClearBank.DeveloperTest.Domain",
+        "projectPath": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\ClearBank.DeveloperTest.Domain.csproj",
+        "packagesPath": "C:\\Users\\FilipEm\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stuff\\clearbank_developer_test_20220928\\ClearBank.DeveloperTest.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FilipEm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/vbl-core/5cf8bbfc-13f1-4704-9aed-e7dd72243f8e/_packaging/VanquisEngineering/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/vbl-core/_packaging/AgentDesktop/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
