@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClearBank.DeveloperTest.Application\DeveloperTest.Application.csproj" />
+    <ProjectReference Include="..\DeveloperTest.Application\DeveloperTest.Application.csproj" />
   </ItemGroup>
 
 </Project>

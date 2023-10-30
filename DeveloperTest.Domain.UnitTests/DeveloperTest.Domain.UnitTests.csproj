@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClearBank.DeveloperTest.Domain\DeveloperTest.Domain.csproj" />
+    <ProjectReference Include="..\DeveloperTest.Domain\DeveloperTest.Domain.csproj" />
   </ItemGroup>
 
 </Project>
